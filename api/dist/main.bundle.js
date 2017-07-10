@@ -7,9 +7,9 @@ webpackJsonp([1,4],{
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__user__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__article__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__article_service__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__auth_service__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__auth_service__ = __webpack_require__(16);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CreateArticleComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -76,8 +76,8 @@ var CreateArticleComponent = (function () {
 CreateArticleComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-create-article',
-        template: __webpack_require__(166),
-        styles: [__webpack_require__(160)]
+        template: __webpack_require__(168),
+        styles: [__webpack_require__(161)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_3__angular_router__["b" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_router__["b" /* ActivatedRoute */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__angular_router__["c" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_router__["c" /* Router */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_5__auth_service__["a" /* AuthService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__auth_service__["a" /* AuthService */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_4__article_service__["a" /* ArticleService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__article_service__["a" /* ArticleService */]) === "function" && _d || Object])
 ], CreateArticleComponent);
@@ -92,9 +92,9 @@ var _a, _b, _c, _d;
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__auth_service__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__auth_service__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__user__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__article_service__ = __webpack_require__(27);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -141,8 +141,8 @@ var HomeComponent = (function () {
 HomeComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-home',
-        template: __webpack_require__(167),
-        styles: [__webpack_require__(161)]
+        template: __webpack_require__(169),
+        styles: [__webpack_require__(162)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_3__angular_router__["b" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_router__["b" /* ActivatedRoute */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__angular_router__["c" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_router__["c" /* Router */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1__auth_service__["a" /* AuthService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__auth_service__["a" /* AuthService */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_4__article_service__["a" /* ArticleService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__article_service__["a" /* ArticleService */]) === "function" && _d || Object])
 ], HomeComponent);
@@ -157,9 +157,9 @@ var _a, _b, _c, _d;
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__auth_service__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__auth_service__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__user__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__(15);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -216,8 +216,8 @@ var LoginComponent = (function () {
 LoginComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-login',
-        template: __webpack_require__(168),
-        styles: [__webpack_require__(162)]
+        template: __webpack_require__(170),
+        styles: [__webpack_require__(163)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_3__angular_router__["b" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_router__["b" /* ActivatedRoute */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__angular_router__["c" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_router__["c" /* Router */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1__auth_service__["a" /* AuthService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__auth_service__["a" /* AuthService */]) === "function" && _c || Object])
 ], LoginComponent);
@@ -232,9 +232,62 @@ var _a, _b, _c;
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__auth_service__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__auth_service__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(15);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LogoutComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var LogoutComponent = (function () {
+    function LogoutComponent(authService, router) {
+        this.authService = authService;
+        this.router = router;
+    }
+    LogoutComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        try {
+            this.authService.getCurrentUser().then(function (user) {
+                _this.authService.logout();
+                _this.router.navigateByUrl('/login');
+            }, function (error) { return console.log(error); });
+        }
+        catch (exception) {
+            console.log(exception);
+        }
+    };
+    return LogoutComponent;
+}());
+LogoutComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
+        selector: 'app-logout',
+        template: __webpack_require__(171),
+        styles: [__webpack_require__(164)]
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__auth_service__["a" /* AuthService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__auth_service__["a" /* AuthService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* Router */]) === "function" && _b || Object])
+], LogoutComponent);
+
+var _a, _b;
+//# sourceMappingURL=logout.component.js.map
+
+/***/ }),
+
+/***/ 104:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__auth_service__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__user__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__(15);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SignupComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -291,8 +344,8 @@ var SignupComponent = (function () {
 SignupComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-signup',
-        template: __webpack_require__(169),
-        styles: [__webpack_require__(163)]
+        template: __webpack_require__(172),
+        styles: [__webpack_require__(165)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_3__angular_router__["b" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_router__["b" /* ActivatedRoute */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__angular_router__["c" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_router__["c" /* Router */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1__auth_service__["a" /* AuthService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__auth_service__["a" /* AuthService */]) === "function" && _c || Object])
 ], SignupComponent);
@@ -302,7 +355,7 @@ var _a, _b, _c;
 
 /***/ }),
 
-/***/ 104:
+/***/ 105:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -319,28 +372,10 @@ var environment = {
 
 /***/ }),
 
-/***/ 158:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(12)(false);
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
 /***/ 159:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(12)(false);
+exports = module.exports = __webpack_require__(10)(false);
 // imports
 
 
@@ -355,121 +390,7 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 160:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(12)(false);
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 161:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(12)(false);
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 162:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(12)(false);
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 163:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(12)(false);
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 164:
-/***/ (function(module, exports) {
-
-module.exports = "<router-outlet></router-outlet>\n"
-
-/***/ }),
-
-/***/ 165:
-/***/ (function(module, exports) {
-
-module.exports = "<a href=\"./home\">Retour à l'accueil</a>\n<a href=\"./article\">Rédiger un article</a>\n<div>\n\n  <p class=\"forgot\">Bienvenue {{user.name}}</p>\n  <h1>Article</h1>\n  <div class=\"article-little\">\n    <h2>{{author.article.title}}</h2>\n    <p>{{author.article.text}}</p>\n    <p class=\"date\">Rédigé par {{author.name}} le {{author.article.datePublication | date: 'dd/MM/yyyy'}} à {{author.article.datePublication | date: 'HH:mm'}} </p>\n  </div>\n  <div class=\"comment\" *ngFor=\"let comment of author.article.comments\">\n    <p>{{comment.comment}}</p>\n    <p class=\"date\">Publié le {{comment.datePublication | date: 'dd/MM/yyyy'}} à {{comment.datePublication | date: 'HH:mm'}} par {{comment.name}}</p>\n  </div>\n  <div class=\"comment\">\n    <div class=\"field-wrap\">\n      <label>\n        Texte du commentaire<span class=\"req\">*</span>\n      </label>\n      <input type=\"text\" [(ngModel)]=\"comment.comment\" required autocomplete=\"off\"/>\n    </div>\n    <button (click)=\"postComment(comment)\" class=\"button button-block\" >Commenter</button>\n  </div>\n</div>\n"
-
-/***/ }),
-
-/***/ 166:
-/***/ (function(module, exports) {
-
-module.exports = "<a href=\"./home\">Retour à l'accueil</a>\n<p class=\"forgot\">Bienvenue {{user.name}}</p>\n\n<div class=\"form\">\n\n  <div class=\"tab-content\">\n    <div id=\"signup\">\n      <h1>Écrire un article</h1>\n\n      <div class=\"field-wrap\">\n        <label>\n          URL<span class=\"req\">*</span>\n        </label>\n        <input  [(ngModel)]=\"article.url\" type=\"text\" required autocomplete=\"off\"/>\n      </div>\n\n      <div class=\"field-wrap\">\n        <label>\n          Titre<span class=\"req\">*</span>\n        </label>\n        <input  [(ngModel)]=\"article.title\" type=\"text\" required autocomplete=\"off\"/>\n      </div>\n\n\n      <div class=\"field-wrap\">\n        <label>\n          Texte<span class=\"req\">*</span>\n        </label>\n        <input  [(ngModel)]=\"article.text\" type=\"text\" required autocomplete=\"off\"/>\n      </div>\n      <p class=\"alert\">{{alert}}</p>\n\n      <button *ngIf=\"!loading\" (click)=\"create(article)\" type=\"submit\" class=\"button button-block\">Publier</button>\n\n    </div>\n\n  </div><!-- tab-content -->\n\n</div> <!-- /form -->\n"
-
-/***/ }),
-
-/***/ 167:
-/***/ (function(module, exports) {
-
-module.exports = "<a href=\"./article\">Rédiger un article</a>\n<p class=\"forgot\">Bienvenue {{user.name}}</p>\n<h1>Tous les articles</h1>\n<div *ngFor=\"let author of articles\">\n  <div class=\"article-little\">\n    <h2>{{author.article.title}}</h2>\n    <p>{{author.article.text.substr(0, 100)}}(...)</p>\n    <p><a href=\"./article/{{author.article.url}}\"><span *ngIf=\"author.article.comments\" >Afficher les commentaires ({{author.article.comments.length}})</span>\n      <span *ngIf=\"!author.article.comments\" >Poster un commentaire</span>\n    </a></p>\n    <p class=\"date\">Publié le {{author.article.datePublication | date: 'dd/MM/yyyy'}} à {{author.article.datePublication | date: 'HH:mm'}} par {{author.name}}</p>\n  </div>\n</div>\n"
-
-/***/ }),
-
-/***/ 168:
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"form\">\n\n  <ul class=\"tab-group\">\n    <li class=\"tab\"><a href=\"./signup\">Sign Up</a></li>\n    <li class=\"tab active\"><a href=\"./login\">Log In</a></li>\n  </ul>\n\n  <div class=\"tab-content\">\n\n    <div id=\"login\">\n      <h1>Welcome Back!</h1>\n\n      <div class=\"field-wrap\">\n        <label>\n          Email Address<span class=\"req\">*</span>\n        </label>\n        <input type=\"email\" [(ngModel)]=\"user.email\" required autocomplete=\"off\"/>\n      </div>\n\n      <div class=\"field-wrap\">\n        <label>\n          Password<span class=\"req\">*</span>\n        </label>\n        <input type=\"password\" [(ngModel)]=\"user.password\" required autocomplete=\"off\"/>\n      </div>\n      <p class=\"alert\">{{alert}}</p>\n\n      <p class=\"forgot\"><a href=\"#\">Forgot Password?</a></p>\n\n      <button *ngIf=\"!loading\" class=\"button button-block\" (click)=\"login(user)\" >Log In</button>\n\n    </div>\n\n  </div><!-- tab-content -->\n\n</div> <!-- /form -->\n"
-
-/***/ }),
-
-/***/ 169:
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"form\">\n\n  <ul class=\"tab-group\">\n    <li class=\"tab active\"><a href=\"./signup\">Sign Up</a></li>\n    <li class=\"tab\"><a href=\"./login\">Log In</a></li>\n  </ul>\n\n  <div class=\"tab-content\">\n    <div id=\"signup\">\n      <h1>Sign Up for Free</h1>\n\n      <div class=\"field-wrap\">\n        <label>\n          Name<span class=\"req\">*</span>\n        </label>\n        <input  [(ngModel)]=\"user.name\" type=\"text\" required autocomplete=\"off\"/>\n      </div>\n\n\n      <div class=\"field-wrap\">\n        <label>\n          Email Address<span class=\"req\">*</span>\n        </label>\n        <input  [(ngModel)]=\"user.email\" type=\"email\" required autocomplete=\"off\"/>\n      </div>\n\n      <div class=\"field-wrap\">\n        <label>\n          Set A Password<span class=\"req\">*</span>\n        </label>\n        <input  [(ngModel)]=\"user.password\" type=\"password\" required autocomplete=\"off\"/>\n      </div>\n      <p class=\"alert\">{{alert}}</p>\n\n      <button *ngIf=\"!loading\" (click)=\"signup(user)\" type=\"submit\" class=\"button button-block\">Get Started</button>\n\n    </div>\n\n  </div><!-- tab-content -->\n\n</div> <!-- /form -->\n"
-
-/***/ }),
-
-/***/ 18:
+/***/ 16:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -551,6 +472,9 @@ var AuthService = (function () {
         console.log(this.user);
         return this.user !== undefined;
     };
+    AuthService.prototype.logout = function () {
+        localStorage.clear();
+    };
     AuthService.prototype.handleError = function (error) {
         console.error('An error occurred', error); // for demo purposes only
         return Promise.reject(error.message || error);
@@ -564,6 +488,163 @@ AuthService = __decorate([
 
 var _a;
 //# sourceMappingURL=auth.service.js.map
+
+/***/ }),
+
+/***/ 160:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(10)(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 161:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(10)(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 162:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(10)(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 163:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(10)(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 164:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(10)(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 165:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(10)(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 166:
+/***/ (function(module, exports) {
+
+module.exports = "<router-outlet></router-outlet>\n"
+
+/***/ }),
+
+/***/ 167:
+/***/ (function(module, exports) {
+
+module.exports = "<a href=\"./home\">Retour à l'accueil</a>\n<a href=\"./article\">Rédiger un article</a>\n<div>\n\n  <p class=\"forgot\">Bienvenue {{user.name}}<br /><a href=\"./logout\">Déconnexion</a></p>\n  <h1>Article</h1>\n  <div class=\"article-little\">\n    <h2>{{author.article.title}}</h2>\n    <p>{{author.article.text}}</p>\n    <p class=\"date\">Rédigé par {{author.name}} le {{author.article.datePublication | date: 'dd/MM/yyyy'}} à {{author.article.datePublication | date: 'HH:mm'}} </p>\n  </div>\n  <div class=\"comment\" *ngFor=\"let comment of author.article.comments\">\n    <p>{{comment.comment}}</p>\n    <p class=\"date\">Publié le {{comment.datePublication | date: 'dd/MM/yyyy'}} à {{comment.datePublication | date: 'HH:mm'}} par {{comment.name}}</p>\n  </div>\n  <div class=\"comment\">\n    <div class=\"field-wrap\">\n      <label>\n        Texte du commentaire<span class=\"req\">*</span>\n      </label>\n      <input type=\"text\" [(ngModel)]=\"comment.comment\" required autocomplete=\"off\"/>\n    </div>\n    <button (click)=\"postComment(comment)\" class=\"button button-block\" >Commenter</button>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ 168:
+/***/ (function(module, exports) {
+
+module.exports = "<a href=\"./home\">Retour à l'accueil</a>\n<p class=\"forgot\">Bienvenue {{user.name}}<br /><a href=\"./logout\">Déconnexion</a></p>\n\n<div class=\"form\">\n\n  <div class=\"tab-content\">\n    <div id=\"signup\">\n      <h1>Écrire un article</h1>\n\n      <div class=\"field-wrap\">\n        <label>\n          URL<span class=\"req\">*</span>\n        </label>\n        <input  [(ngModel)]=\"article.url\" type=\"text\" required autocomplete=\"off\"/>\n      </div>\n\n      <div class=\"field-wrap\">\n        <label>\n          Titre<span class=\"req\">*</span>\n        </label>\n        <input  [(ngModel)]=\"article.title\" type=\"text\" required autocomplete=\"off\"/>\n      </div>\n\n\n      <div class=\"field-wrap\">\n        <label>\n          Texte<span class=\"req\">*</span>\n        </label>\n        <input  [(ngModel)]=\"article.text\" type=\"text\" required autocomplete=\"off\"/>\n      </div>\n      <p class=\"alert\">{{alert}}</p>\n\n      <button *ngIf=\"!loading\" (click)=\"create(article)\" type=\"submit\" class=\"button button-block\">Publier</button>\n\n    </div>\n\n  </div><!-- tab-content -->\n\n</div> <!-- /form -->\n"
+
+/***/ }),
+
+/***/ 169:
+/***/ (function(module, exports) {
+
+module.exports = "<a href=\"./article\">Rédiger un article</a>\n<p class=\"forgot\">Bienvenue {{user.name}}<br /><a href=\"./logout\">Déconnexion</a></p>\n<h1>Tous les articles</h1>\n<div *ngFor=\"let author of articles\">\n  <div class=\"article-little\">\n    <h2>{{author.article.title}}</h2>\n    <p>{{author.article.text.substr(0, 100)}}(...)</p>\n    <p><a href=\"./article/{{author.article.url}}\"><span *ngIf=\"author.article.comments\" >Afficher les commentaires ({{author.article.comments.length}})</span>\n      <span *ngIf=\"!author.article.comments\" >Poster un commentaire</span>\n    </a></p>\n    <p class=\"date\">Publié le {{author.article.datePublication | date: 'dd/MM/yyyy'}} à {{author.article.datePublication | date: 'HH:mm'}} par {{author.name}}</p>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ 170:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"form\">\n\n  <ul class=\"tab-group\">\n    <li class=\"tab\"><a href=\"./signup\">Sign Up</a></li>\n    <li class=\"tab active\"><a href=\"./login\">Log In</a></li>\n  </ul>\n\n  <div class=\"tab-content\">\n\n    <div id=\"login\">\n      <h1>Welcome Back!</h1>\n\n      <div class=\"field-wrap\">\n        <label>\n          Email Address<span class=\"req\">*</span>\n        </label>\n        <input type=\"email\" [(ngModel)]=\"user.email\" required autocomplete=\"off\"/>\n      </div>\n\n      <div class=\"field-wrap\">\n        <label>\n          Password<span class=\"req\">*</span>\n        </label>\n        <input type=\"password\" [(ngModel)]=\"user.password\" required autocomplete=\"off\"/>\n      </div>\n      <p class=\"alert\">{{alert}}</p>\n\n      <p class=\"forgot\"><a href=\"#\">Forgot Password?</a></p>\n\n      <button *ngIf=\"!loading\" class=\"button button-block\" (click)=\"login(user)\" >Log In</button>\n\n    </div>\n\n  </div><!-- tab-content -->\n\n</div> <!-- /form -->\n"
+
+/***/ }),
+
+/***/ 171:
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  logout works!\n</p>\n"
+
+/***/ }),
+
+/***/ 172:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"form\">\n\n  <ul class=\"tab-group\">\n    <li class=\"tab active\"><a href=\"./signup\">Sign Up</a></li>\n    <li class=\"tab\"><a href=\"./login\">Log In</a></li>\n  </ul>\n\n  <div class=\"tab-content\">\n    <div id=\"signup\">\n      <h1>Sign Up for Free</h1>\n\n      <div class=\"field-wrap\">\n        <label>\n          Name<span class=\"req\">*</span>\n        </label>\n        <input  [(ngModel)]=\"user.name\" type=\"text\" required autocomplete=\"off\"/>\n      </div>\n\n\n      <div class=\"field-wrap\">\n        <label>\n          Email Address<span class=\"req\">*</span>\n        </label>\n        <input  [(ngModel)]=\"user.email\" type=\"email\" required autocomplete=\"off\"/>\n      </div>\n\n      <div class=\"field-wrap\">\n        <label>\n          Set A Password<span class=\"req\">*</span>\n        </label>\n        <input  [(ngModel)]=\"user.password\" type=\"password\" required autocomplete=\"off\"/>\n      </div>\n      <p class=\"alert\">{{alert}}</p>\n\n      <button *ngIf=\"!loading\" (click)=\"signup(user)\" type=\"submit\" class=\"button button-block\">Get Started</button>\n\n    </div>\n\n  </div><!-- tab-content -->\n\n</div> <!-- /form -->\n"
 
 /***/ }),
 
@@ -585,7 +666,7 @@ var User = (function () {
 
 /***/ }),
 
-/***/ 201:
+/***/ 204:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(90);
@@ -694,7 +775,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(95);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(105);
 
 
 
@@ -729,8 +810,8 @@ var AppComponent = (function () {
 AppComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-root',
-        template: __webpack_require__(164),
-        styles: [__webpack_require__(158)]
+        template: __webpack_require__(166),
+        styles: [__webpack_require__(159)]
     })
 ], AppComponent);
 
@@ -746,15 +827,16 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(94);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(96);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__signup_signup_component__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__auth_service__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__signup_signup_component__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__auth_service__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__article_service__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__login_login_component__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__home_home_component__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__article_article_component__ = __webpack_require__(98);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__create_article_create_article_component__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__logout_logout_component__ = __webpack_require__(103);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -775,11 +857,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
 var appRoutes = [
     { path: 'login', component: __WEBPACK_IMPORTED_MODULE_9__login_login_component__["a" /* LoginComponent */] },
     { path: 'signup', component: __WEBPACK_IMPORTED_MODULE_6__signup_signup_component__["a" /* SignupComponent */] },
     { path: 'home', component: __WEBPACK_IMPORTED_MODULE_10__home_home_component__["a" /* HomeComponent */] },
     { path: 'article', component: __WEBPACK_IMPORTED_MODULE_12__create_article_create_article_component__["a" /* CreateArticleComponent */] },
+    { path: 'logout', component: __WEBPACK_IMPORTED_MODULE_13__logout_logout_component__["a" /* LogoutComponent */] },
     {
         path: 'article/:url',
         component: __WEBPACK_IMPORTED_MODULE_11__article_article_component__["a" /* ArticleComponent */]
@@ -799,7 +883,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_9__login_login_component__["a" /* LoginComponent */],
             __WEBPACK_IMPORTED_MODULE_10__home_home_component__["a" /* HomeComponent */],
             __WEBPACK_IMPORTED_MODULE_11__article_article_component__["a" /* ArticleComponent */],
-            __WEBPACK_IMPORTED_MODULE_12__create_article_create_article_component__["a" /* CreateArticleComponent */]
+            __WEBPACK_IMPORTED_MODULE_12__create_article_create_article_component__["a" /* CreateArticleComponent */],
+            __WEBPACK_IMPORTED_MODULE_13__logout_logout_component__["a" /* LogoutComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -824,10 +909,10 @@ AppModule = __decorate([
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__auth_service__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__auth_service__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__user__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__article__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__article_service__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__comment__ = __webpack_require__(99);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ArticleComponent; });
@@ -890,7 +975,14 @@ var ArticleComponent = (function () {
             try {
                 this.authService.getCurrentUser().then(function (user) {
                     _this.user = user;
-                    _this.articleService.postComment(_this.author.article.url, _this.user.token, comment).then(function (response) { return _this.author.article.comments.push(comment); });
+                    _this.articleService.postComment(_this.author.article.url, _this.user.token, comment).then(function (response) {
+                        if (_this.author.article.comments === undefined) {
+                            _this.author.article.comments = [];
+                        }
+                        comment.name = _this.user.name;
+                        comment.datePublication = new Date(Date.now());
+                        _this.author.article.comments.push(comment);
+                    });
                 }, function (error) { return _this.router.navigateByUrl('/login'); });
             }
             catch (exception) {
@@ -901,7 +993,14 @@ var ArticleComponent = (function () {
             }
         }
         else {
-            this.articleService.postComment(this.author.article.url, this.user.token, comment).then(function (response) { return _this.author.article.comments.push(comment); });
+            this.articleService.postComment(this.author.article.url, this.user.token, comment).then(function (response) {
+                if (_this.author.article.comments === undefined) {
+                    _this.author.article.comments = [];
+                }
+                comment.name = _this.user.name;
+                comment.datePublication = new Date(Date.now());
+                _this.author.article.comments.push(comment);
+            });
         }
     };
     return ArticleComponent;
@@ -909,8 +1008,8 @@ var ArticleComponent = (function () {
 ArticleComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-article',
-        template: __webpack_require__(165),
-        styles: [__webpack_require__(159)]
+        template: __webpack_require__(167),
+        styles: [__webpack_require__(160)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_4__angular_router__["b" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__angular_router__["b" /* ActivatedRoute */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_4__angular_router__["c" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__angular_router__["c" /* Router */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1__auth_service__["a" /* AuthService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__auth_service__["a" /* AuthService */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_5__article_service__["a" /* ArticleService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__article_service__["a" /* ArticleService */]) === "function" && _d || Object])
 ], ArticleComponent);
@@ -938,5 +1037,5 @@ var Comment = (function () {
 
 /***/ })
 
-},[201]);
+},[204]);
 //# sourceMappingURL=main.bundle.js.map
