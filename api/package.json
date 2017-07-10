@@ -1,0 +1,24 @@
+{
+  "name": "mongo-api",
+  "version": "0.0.1",
+  "description": "Serveur d'API rest pour l'accès aux données du projet Mongo",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "colors": "^1.1.2",
+    "cors": "^2.8.3",
+    "crypto": "0.0.3",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.29",
+    "validator": "^8.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongo"
+  ],
+  "author": "Louis Dupont",
+  "license": "ISC"
+}
