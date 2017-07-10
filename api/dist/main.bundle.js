@@ -451,7 +451,7 @@ module.exports = "<a href=\"./home\">Retour à l'accueil</a>\n<p class=\"forgot\
 /***/ 167:
 /***/ (function(module, exports) {
 
-module.exports = "<a href=\"./article\">Rédiger un article</a>\n<p class=\"forgot\">Bienvenue {{user.name}}</p>\n<h1>Tous les articles</h1>\n<div *ngFor=\"let author of articles\">\n  <div class=\"article-little\">\n    <h2>{{author.article.title}}</h2>\n    <p>{{author.article.text}}</p>\n    <p><a href=\"./article/{{author.article.url}}\"><span *ngIf=\"author.article.comments\" >Afficher les commentaires ({{author.article.comments.length}})</span>\n      <span *ngIf=\"!author.article.comments\" >Poster un commentaire</span>\n    </a></p>\n    <p class=\"date\">Rédigé par {{author.name}} le {{author.article.datePublication}}</p>\n  </div>\n</div>\n"
+module.exports = "<a href=\"./article\">Rédiger un article</a>\n<p class=\"forgot\">Bienvenue {{user.name}}</p>\n<h1>Tous les articles</h1>\n<div *ngFor=\"let author of articles\">\n  <div class=\"article-little\">\n    <h2>{{author.article.title}}</h2>\n    <p>{{author.article.text.substr(0, 100)}}(...)</p>\n    <p><a href=\"./article/{{author.article.url}}\"><span *ngIf=\"author.article.comments\" >Afficher les commentaires ({{author.article.comments.length}})</span>\n      <span *ngIf=\"!author.article.comments\" >Poster un commentaire</span>\n    </a></p>\n    <p class=\"date\">Publié le {{author.article.datePublication | date: 'dd/MM/yyyy'}} à {{author.article.datePublication | date: 'HH:mm'}} par {{author.name}}</p>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -493,7 +493,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var AuthService = (function () {
     function AuthService(http) {
         this.http = http;
-        this.baseUrl = 'http://192.168.99.100:3000/api/';
+        this.baseUrl = 'http://reggaeshark.eu:3000/api/';
         this.userUrl = 'user/';
         this.authUrl = 'auth/';
         this.loginUrl = 'login';
@@ -617,7 +617,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var ArticleService = (function () {
     function ArticleService(http) {
         this.http = http;
-        this.baseUrl = 'http://localhost:3000/api/';
+        this.baseUrl = 'http://reggaeshark.eu:3000/api/';
         this.articleUrl = 'article/';
         this.articlesUrl = 'articles/';
         this.commentUrl = 'comment/';
