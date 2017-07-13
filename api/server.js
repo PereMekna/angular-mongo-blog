@@ -50,7 +50,7 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'dist/index.html'));
 });
 
-database.connect('mongodb://mongo/gsm', function(err) {
+database.connect('mongodb://192.168.99.100:27018/gsm', function(err) {
     if (err) {
         console.log('Unable to connect to Mongo.');
         console.log(err);
