@@ -1,0 +1,20 @@
+<div class="navbar">
+  <a href="./home">Retour à l'accueil</a>
+  <a href="./article">Rédiger un article</a>
+  <a href="./logout">Déconnexion</a>
+  <p class="welcome">Bienvenue {{user.name}}</p>
+</div>
+
+<div class="main">
+  <h1>Tous les articles</h1>
+  <div *ngFor="let author of articles">
+    <div class="article-little">
+      <h2>{{author.article.title}}</h2>
+      <p>{{author.article.text.substr(0, 100)}}(...)</p>
+      <p><a href="./article/{{author.article.url}}"><span *ngIf="author.article.comments" >Afficher les commentaires ({{author.article.comments.length}})</span>
+        <span *ngIf="!author.article.comments" >Poster un commentaire</span>
+      </a></p>
+      <p class="date">Publié le {{author.article.datePublication | date: 'dd/MM/yyyy'}} à {{author.article.datePublication | date: 'HH:mm'}} par {{author.name}}</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+<div class="form">
+
+  <ul class="tab-group">
+    <li class="tab"><a href="./signup">S'inscrire</a></li>
+    <li class="tab active"><a href="./login">Se connecter</a></li>
+  </ul>
+
+  <div class="tab-content">
+
+    <div id="login">
+      <h1>Se connecter</h1>
+
+      <div class="field-wrap">
+        <input type="email" placeholder="Adresse email" [(ngModel)]="user.email" required autocomplete="off"/>
+      </div>
+
+      <div class="field-wrap">
+        <input type="password" placeholder="Mot de passe" [(ngModel)]="user.password" required autocomplete="off"/>
+      </div>
+      <p class="alert">{{alert}}</p>
+
+      <p class="forgot"><a href="#">Mot de passe oublié?</a></p>
+
+      <button *ngIf="!loading" class="button button-block" (click)="login(user)" >Log In</button>
+
+    </div>
+
+  </div><!-- tab-content -->
+
+</div> <!-- /form -->

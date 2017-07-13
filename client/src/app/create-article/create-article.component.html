@@ -1,0 +1,38 @@
+<div class="navbar">
+  <a href="./home">Retour à l'accueil</a>
+  <a href="./article">Rédiger un article</a>
+  <a href="./logout">Déconnexion</a>
+  <p class="welcome">Bienvenue {{user.name}}</p>
+</div>
+
+
+<div class="main">
+<div class="form">
+
+  <div class="tab-content">
+    <div id="signup">
+      <h1>Écrire un article</h1>
+
+      <div class="field-wrap">
+        <input  [(ngModel)]="article.url" type="text" required autocomplete="off" placeholder="URL"/>
+      </div>
+
+      <div class="field-wrap">
+        <input  [(ngModel)]="article.title" type="text" required autocomplete="off" placeholder="Titre"/>
+      </div>
+
+
+      <div class="field-wrap">
+
+        <textarea  [(ngModel)]="article.text" required placeholder="Texte de l'article"></textarea>
+      </div>
+      <p class="alert">{{alert}}</p>
+
+      <button *ngIf="!loading" (click)="create(article)" type="submit" class="button button-block">Publier</button>
+
+    </div>
+
+  </div><!-- tab-content -->
+
+</div> <!-- /form -->
+</div>

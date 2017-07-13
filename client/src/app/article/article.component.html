@@ -1,0 +1,29 @@
+<div class="navbar">
+  <a href="./home">Retour à l'accueil</a>
+  <a href="./article">Rédiger un article</a>
+  <a href="./logout">Déconnexion</a>
+  <p class="welcome">Bienvenue {{user.name}}</p>
+</div>
+
+<div class="main">
+  <h1>Article</h1>
+  <div class="article-little">
+    <h2>{{author.article.title}}</h2>
+    <p>{{author.article.text}}</p>
+    <p class="date">Rédigé par {{author.name}} le {{author.article.datePublication | date: 'dd/MM/yyyy'}} à {{author.article.datePublication | date: 'HH:mm'}} </p>
+  </div>
+  <div class="comment" *ngFor="let comment of author.article.comments">
+    <p>{{comment.comment}}</p>
+    <p class="date">Publié le {{comment.datePublication | date: 'dd/MM/yyyy'}} à {{comment.datePublication | date: 'HH:mm'}} par {{comment.name}}</p>
+  </div>
+  <div class="comment">
+    <div class="field-wrap">
+      <label>
+        Texte du commentaire<span class="req">*</span>
+      </label>
+      <input type="text" [(ngModel)]="comment.comment" required autocomplete="off"/>
+    </div>
+    <button (click)="postComment(comment)" class="button button-block" >Commenter</button>
+  </div>
+</div>
+
